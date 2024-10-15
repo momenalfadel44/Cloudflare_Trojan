@@ -1,9 +1,9 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
 
-let Pswd = 'LeslieAlexanderTrojan88c8292f-d679-41a6-913e-335546702bdf';
-const proxyIPs = ["cdn-all.xn--b6gac.eu.org"]; // https://github.com/HappyLeslieAlexander/Cloudflare_Trojan/blob/main/proxyip.txt 中的地址也可以
-let hostnames = ['leslieblog.top'];
+let Pswd = '88c8292f-d679-41a6-913e-335546702bdf';
+const proxyIPs = ["proxyip.digitalocean.fxxk.dedyn.io"]
+let hostnames = ['proxyip.hk.fxxk.dedyn.io'];
 
 let sha224Password ;
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
